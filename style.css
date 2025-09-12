@@ -10,6 +10,7 @@ main{
     margin: 0 auto;
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #1c3463;
 }
 
 aside {
@@ -70,7 +71,7 @@ aside, section{
 }
 
 section .titulo, section .sectionText{
-        width: 550px;
+    width: 550px;
 }
 
 section .titulo {
@@ -112,7 +113,34 @@ section hr {
     text-decoration: underline;
     text-underline-offset: 10px;
     padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: 500;
 }
+
+.sectionText .texto{
+    padding: 5px;
+}
+
+.sectionText .datosExperiencia{
+    display: flex;
+    justify-content: space-between;
+}
+
+.datosExperiencia .subtitulo, .datosExperiencia .fecha, .lugar{
+    text-transform: capitalize;
+    font-weight:600;
+    font-size: 16px;
+}
+
+.fecha{
+    color: #1c3463;
+}
+
+.sectionText ul{
+    margin: 5px;
+    margin-left: 30px;
+}
+
 
 
 
