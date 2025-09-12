@@ -3,30 +3,40 @@
     padding: 0;
 }
 
+/* main, aside, section, ul, li, h2, h3, div {border: 1px solid;} */
+
 main{
     width: 900px;
     margin: 0 auto;
     display: flex;
     padding: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-aside, article{
-    margin: 0 auto;
-    padding: 10px;
-    border: 2px solid;
-}
-
-aside div {
-    margin: 0 auto;
-    padding: 15px;
 }
 
 aside {
-    width: 500px;
-    background-color: #1f3d7a;
+    width: 300px;
+    background-color: #1c3463;
     color: #e9e6e6;
+}
+
+section{
+    width: 600px;
+}
+
+aside, section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    /* margin: 0 auto;
+    
+    border: 2px solid; */
+}
+
+.skillsAside {
+    width: 250px;
+    padding: 10px;
 }
 
 .perfil {
@@ -34,18 +44,35 @@ aside {
     border-radius: 20%;
 }
 
-ul{
-    list-style-type: none;
-}
-
-aside div h3 {
+.skillsAside h3 {
     font-size: 22px;
     text-transform: uppercase;
     font-weight: 400;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     text-decoration: underline;
 }
+
+.datosContacto,.conocimientos, .idiomas, .blandas{
+    list-style-type: none; 
+    padding: 5px;  
+}
+
+.skillsAside .datosContacto a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.datosContacto i, .blandas i{
+    padding: 10px;
+}
+
+
+
+
+
+
+
 
 
 
