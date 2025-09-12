@@ -9,7 +9,6 @@ main{
     width: 900px;
     margin: 0 auto;
     display: flex;
-    padding: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -17,6 +16,10 @@ aside {
     width: 300px;
     background-color: #1c3463;
     color: #e9e6e6;
+}
+
+aside .foto {
+    padding-top: 30px;
 }
 
 section{
@@ -29,9 +32,6 @@ aside, section{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    /* margin: 0 auto;
-    
-    border: 2px solid; */
 }
 
 .skillsAside {
@@ -45,12 +45,14 @@ aside, section{
 }
 
 .skillsAside h3 {
-    font-size: 22px;
+    font-size:   22px;
     text-transform: uppercase;
     font-weight: 400;
     padding: 10px;
     margin: 10px;
     text-decoration: underline;
+    text-underline-offset: 10px;
+
 }
 
 .datosContacto,.conocimientos, .idiomas, .blandas{
@@ -66,6 +68,56 @@ aside, section{
 .datosContacto i, .blandas i{
     padding: 10px;
 }
+
+section .titulo, section .sectionText{
+        width: 550px;
+}
+
+section .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: #e9e6e6;
+}
+
+section hr {
+    width: 150px;
+    height: 2.5px;
+    border: none;
+    color: black;
+    background-color: black;
+}
+
+.titulo h1, .titulo p{
+    text-transform: uppercase;
+}
+
+.titulo h1 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.titulo p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #7f7c7c;;
+}
+
+.sectionText h3{
+    color: #1c3463;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
 
 
 
