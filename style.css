@@ -144,17 +144,16 @@ section hr {
 .datosExperiencia .subtitulo, .datosExperiencia .fecha, .lugar{
     text-transform: capitalize;
     font-weight:600;
-    /* font-size: 16px; */
 }
 
 .fecha{
     color: var(--segundoAzul);
 }
 
-/* .sectionText ul{
+.sectionText ul{
     margin: 5px;
     margin-left: 30px;
-} */
+}
 
 
 
